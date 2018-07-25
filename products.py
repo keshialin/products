@@ -6,3 +6,6 @@ while True:
 	price = input('請輸入商品價格:')
 	products.append([name, price])
 print(products)
+
+for p in products:
+	print('{}的價格是{}'.format(p[0],p[1]))
